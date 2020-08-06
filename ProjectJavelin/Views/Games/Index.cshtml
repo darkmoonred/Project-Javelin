@@ -1,0 +1,97 @@
+﻿@model IEnumerable<ProjectJavelin.Models.Games>
+
+@{
+    ViewData["Title"] = "Index";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<h1>Index</h1>
+
+<p>
+    <a asp-action="Create">Create New</a>
+</p>
+<table class="table">
+    <thead>
+        <tr>
+            <th>
+                @Html.DisplayNameFor(model => model.gameVariant)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.mapId)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.won)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.score)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.kills)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.deaths)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.assists)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.headshots)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.medals)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.killDeathRatio)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.headshotRate)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.playedAt)
+            </th>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+@foreach (var item in Model) {
+        <tr>
+            <td>
+                @Html.DisplayFor(modelItem => item.gameVariant)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.mapId)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.won)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.score)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.kills)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.deaths)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.assists)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.headshots)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.medals)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.killDeathRatio)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.headshotRate)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.playedAt)
+            </td>
+        </tr>
+}
+    </tbody>
+</table>

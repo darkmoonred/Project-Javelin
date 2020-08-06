@@ -1,0 +1,92 @@
+﻿@model ProjectJavelin.Models.Stats
+
+@{
+    ViewData["Title"] = "Edit";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<h1>Edit</h1>
+
+<h4>Stats</h4>
+<hr />
+<div class="row">
+    <div class="col-md-4">
+        <form asp-action="Edit">
+            <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+            <input type="hidden" asp-for="StatsId" />
+            <div class="form-group">
+                <label asp-for="Gamertag" class="control-label"></label>
+                <input asp-for="Gamertag" class="form-control" />
+                <span asp-validation-for="Gamertag" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="GameVariant" class="control-label"></label>
+                <input asp-for="GameVariant" class="form-control" />
+                <span asp-validation-for="GameVariant" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="MapId" class="control-label"></label>
+                <input asp-for="MapId" class="form-control" />
+                <span asp-validation-for="MapId" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="Won" class="control-label"></label>
+                <input asp-for="Won" class="form-control" />
+                <span asp-validation-for="Won" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="Score" class="control-label"></label>
+                <input asp-for="Score" class="form-control" />
+                <span asp-validation-for="Score" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="Kills" class="control-label"></label>
+                <input asp-for="Kills" class="form-control" />
+                <span asp-validation-for="Kills" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="Deaths" class="control-label"></label>
+                <input asp-for="Deaths" class="form-control" />
+                <span asp-validation-for="Deaths" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="Assists" class="control-label"></label>
+                <input asp-for="Assists" class="form-control" />
+                <span asp-validation-for="Assists" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="Headshots" class="control-label"></label>
+                <input asp-for="Headshots" class="form-control" />
+                <span asp-validation-for="Headshots" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="Medals" class="control-label"></label>
+                <input asp-for="Medals" class="form-control" />
+                <span asp-validation-for="Medals" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="KillDeathRatio" class="control-label"></label>
+                <input asp-for="KillDeathRatio" class="form-control" />
+                <span asp-validation-for="KillDeathRatio" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="HeadShotRate" class="control-label"></label>
+                <input asp-for="HeadShotRate" class="form-control" />
+                <span asp-validation-for="HeadShotRate" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="PlayedAt" class="control-label"></label>
+                <input asp-for="PlayedAt" class="form-control" />
+                <span asp-validation-for="PlayedAt" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <input type="submit" value="Save" class="btn btn-primary" />
+            </div>
+        </form>
+    </div>
+</div>
+
+<div>
+    <a asp-action="Index">Back to List</a>
+</div>
+
