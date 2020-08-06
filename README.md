@@ -4,6 +4,7 @@ Live Halo MCC Leaderboard
 LIVE PROJECT HERE: https://project-javelin.herokuapp.com/Stats
 
 ![](halo.jpg)
+<br>
 What is Project-Javelin?
 - Submit your best matches in Halo Master Cheif Collection to our public leaderboard by entering your gamertag.
 
