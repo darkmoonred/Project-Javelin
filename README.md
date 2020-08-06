@@ -18,3 +18,5 @@ What I learned:
 - Fully understand and use Postgresql databases
 - Deploy a full real-world application with Docker from start to finish
 - Consume restful API data and save the data into a database
+
+Reason behind the name of the project: https://halofanon.fandom.com/wiki/Project_JAVELIN
