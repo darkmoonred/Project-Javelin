@@ -1,5 +1,5 @@
 # Project-Javelin
-Halo MCC Leaderboard
+Live Halo MCC Leaderboard
 
 LIVE PROJECT HERE: https://project-javelin.herokuapp.com/Stats
 
