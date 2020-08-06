@@ -1,5 +1,5 @@
 # Project-Javelin
-Live Halo MCC Leaderboard
+Live Real Working Halo MCC (videogame) Leaderboard using a custom API
 
 LIVE PROJECT HERE: https://project-javelin.herokuapp.com/Stats
 
