@@ -7,7 +7,7 @@ LIVE PROJECT HERE: https://project-javelin.herokuapp.com/Stats
 <br>
 <br>
 What is Project-Javelin?
-- Submit your best matches in Halo Master Cheif Collection to our public leaderboard by entering your gamertag.
+- Submit your best matches in Halo Master Chief Collection to our public leaderboard by entering your gamertag.
 
 How does it work?
 - Connects to the public custom built API here: https://autocode.com/stdlib/halo/mcc/
